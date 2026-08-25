@@ -1,0 +1,33 @@
+{
+  "name": "GrowthLab",
+  "fullName": "GrowthLab Marketing",
+  "legalName": "GrowthLab Marketing Ltd",
+  "tagline": "Marketing that earns its budget",
+  "email": "hello@growthlab.marketing",
+  "phone": "+91 80 4718 2200",
+  "address": "4th Floor, 100 Feet Road, Indiranagar, Bengaluru 560038",
+  "founded": "2019",
+  "social": [
+    { "label": "Instagram", "href": "#" },
+    { "label": "LinkedIn", "href": "#" },
+    { "label": "Behance", "href": "#" },
+    { "label": "X", "href": "#" }
+  ],
+  "nav": [
+    { "label": "Services", "href": "/services" },
+    { "label": "Projects", "href": "/projects" },
+    { "label": "Pricing", "href": "/pricing" },
+    { "label": "Blog", "href": "/blog" },
+    { "label": "About", "href": "/about" }
+  ],
+  "clients": [
+    "Northwind", "Palette", "Corvus", "Fernwood", "Batchly",
+    "Orbit Health", "Lumen", "Tidepool", "Kestrel", "Homestead", "Verdant", "Sable"
+  ],
+  "stats": [
+    { "value": "4.2", "suffix": "x", "label": "Median return on ad spend" },
+    { "value": "120", "suffix": "+", "label": "Campaigns shipped since 2019" },
+    { "value": "38", "suffix": "%", "label": "Average lift in qualified pipeline" },
+    { "value": "92", "suffix": "%", "label": "Clients past year one" }
+  ]
+}

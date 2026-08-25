@@ -1,0 +1,8 @@
+[
+  { "name": "Ananya Deshpande", "role": "Founder, strategy", "initials": "AD", "bio": "Fifteen years across brand and performance. Started GrowthLab after one too many decks that avoided the actual constraint." },
+  { "name": "Marcus Reyes", "role": "Partner, media", "initials": "MR", "bio": "Ran nine-figure budgets in-house before deciding he preferred smaller rooms and faster decisions." },
+  { "name": "Sana Qureshi", "role": "Creative director", "initials": "SQ", "bio": "Built the modular concept system that lets ten shoots become forty assets a month." },
+  { "name": "Tobias Lund", "role": "Head of measurement", "initials": "TL", "bio": "Analytics engineer by training. Has personally deleted more dashboards than he has built." },
+  { "name": "Ritu Nair", "role": "Lifecycle lead", "initials": "RN", "bio": "Email, SMS and the unglamorous segmentation work that quietly funds everything else." },
+  { "name": "James Ofori", "role": "Growth engineer", "initials": "JO", "bio": "Ships the tracking, the landing pages and the warehouse models — usually in that order." }
+]

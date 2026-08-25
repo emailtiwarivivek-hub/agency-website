@@ -1,0 +1,296 @@
+@import "tailwindcss";
+
+/* ==================================================================
+   GrowthLab Marketing — design tokens
+   Brand blue is taken straight from the logo: #0005DD.
+   Dark is the default canvas; light is a full inverse, not a tint.
+================================================================== */
+
+:root {
+  --bg: #ffffff;
+  --bg-subtle: #f2f4ff;
+  --bg-elevated: #ffffff;
+  --bg-inset: #e6e9ff;
+  --fg: #0a1259;
+  --fg-muted: #4b5391;
+  --fg-faint: #8189bd;
+  --line: #dfe3ff;
+  --line-strong: #bcc3f5;
+
+  --brand: #0005dd;
+  --brand-strong: #0004a8;
+  --brand-deep: #0005dd;
+  --brand-contrast: #ffffff;
+  --brand-soft: #e8e9ff;
+  --brand-glow: rgb(0 5 221 / 0.3);
+
+  --ink: #0a1259;
+  --paper: #ffffff;
+
+  --shadow-card: 0 1px 2px rgb(10 18 89 / 0.06), 0 12px 34px -16px rgb(0 5 221 / 0.28);
+  --shadow-tile: 0 24px 60px -28px rgb(0 5 160 / 0.45);
+
+  --radius: 1.25rem;
+}
+
+:root.dark {
+  --bg: #181818;
+  --bg-subtle: #1f1f1f;
+  --bg-elevated: #232323;
+  --bg-inset: #2c2c2c;
+  --fg: #f4f4f5;
+  --fg-muted: #a6a6ac;
+  --fg-faint: #78787f;
+  --line: #2e2e30;
+  --line-strong: #454549;
+
+  --brand: #6470ff;
+  --brand-strong: #8b94ff;
+  --brand-deep: #0005dd;
+  --brand-contrast: #ffffff;
+  --brand-soft: #21223f;
+  --brand-glow: rgb(100 112 255 / 0.4);
+
+  --ink: #181818;
+  --paper: #f4f4f5;
+
+  --shadow-card: 0 1px 2px rgb(0 0 0 / 0.45), 0 12px 34px -16px rgb(0 0 0 / 0.75);
+  --shadow-tile: 0 24px 60px -28px rgb(0 0 0 / 0.8);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-subtle: var(--bg-subtle);
+  --color-bg-elevated: var(--bg-elevated);
+  --color-bg-inset: var(--bg-inset);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-fg-faint: var(--fg-faint);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-brand: var(--brand);
+  --color-brand-strong: var(--brand-strong);
+  --color-brand-deep: var(--brand-deep);
+  --color-brand-contrast: var(--brand-contrast);
+  --color-brand-soft: var(--brand-soft);
+  --color-ink: var(--ink);
+  --color-paper: var(--paper);
+
+  --font-sans: var(--font-geist-sans), "Geist", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Anton", var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-alt: "Exo Variable", "Exo", "Geist", ui-sans-serif, sans-serif;
+  --font-round: "Varela Round", "Geist", ui-sans-serif, sans-serif;
+}
+
+* {
+  border-color: var(--line);
+  min-width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  color-scheme: light;
+}
+
+html.dark {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
+}
+
+::selection {
+  background: var(--brand);
+  color: #fff;
+}
+
+/* Layout --------------------------------------------------------- */
+
+.shell {
+  width: 100%;
+  max-width: 82rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .shell {
+    padding-inline: 2.5rem;
+  }
+}
+
+/* Type ----------------------------------------------------------- */
+
+.display {
+  font-family: var(--font-display);
+  font-weight: 400;
+  line-height: 0.88;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+}
+
+.label {
+  font-family: var(--font-alt);
+  font-weight: 600;
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.round {
+  font-family: var(--font-round);
+}
+
+.outline-text {
+  -webkit-text-stroke: 1.5px var(--fg-faint);
+  color: transparent;
+}
+
+/* Decoration ----------------------------------------------------- */
+
+.grid-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, var(--line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--line) 1px, transparent 1px);
+  background-size: 5.5rem 5.5rem;
+  mask-image: radial-gradient(ellipse 70% 65% at 50% 30%, #000 10%, transparent 70%);
+  opacity: 0.75;
+}
+
+.noise {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.022;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Marquee -------------------------------------------------------- */
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee 34s linear infinite;
+}
+.marquee-track--slow { animation-duration: 58s; }
+.marquee-track--reverse { animation-direction: reverse; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+/* 3D flip cards -------------------------------------------------- */
+
+.flip-scene { perspective: 1600px; }
+
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.75s cubic-bezier(0.2, 0.7, 0.25, 1);
+  transform-style: preserve-3d;
+}
+
+.flip-scene:hover .flip-inner,
+.flip-scene:focus-within .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.flip-face--back { transform: rotateY(180deg); }
+
+/* Misc ----------------------------------------------------------- */
+
+.hide-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+.hide-scrollbar::-webkit-scrollbar { display: none; }
+
+.pulse-dot { animation: pulse-dot 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+@keyframes pulse-dot {
+  0%, 100% { opacity: 0.55; transform: scale(1); }
+  50% { opacity: 0; transform: scale(2); }
+}
+
+.logo-swap { display: block; }
+.logo-swap--dark { display: none; }
+:root.dark .logo-swap--light { display: none; }
+:root.dark .logo-swap--dark { display: block; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Article prose --------------------------------------------------- */
+
+.prose-growthlab h2 {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: -0.01em;
+  line-height: 0.95;
+  font-size: clamp(1.5rem, 3vw, 2.1rem);
+  margin-top: 3rem;
+  margin-bottom: 1.1rem;
+}
+
+.prose-growthlab h3 {
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-growthlab p {
+  color: var(--fg-muted);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  margin-bottom: 1.25rem;
+}
+
+.prose-growthlab ul,
+.prose-growthlab ol {
+  color: var(--fg-muted);
+  font-size: 1.0625rem;
+  line-height: 1.75;
+  margin: 0 0 1.25rem 1.25rem;
+  list-style: disc;
+}
+
+.prose-growthlab ol { list-style: decimal; }
+.prose-growthlab li { margin-bottom: 0.5rem; }
+
+.prose-growthlab a {
+  color: var(--brand);
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+
+.prose-growthlab strong { color: var(--fg); font-weight: 600; }
+
+.prose-growthlab blockquote {
+  border-left: 2px solid var(--brand);
+  padding-left: 1.25rem;
+  margin: 2rem 0;
+  color: var(--fg);
+  font-size: 1.15rem;
+}

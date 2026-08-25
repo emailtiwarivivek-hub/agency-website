@@ -1,0 +1,256 @@
+[
+  {
+    "slug": "fernwood",
+    "client": "Fernwood",
+    "sector": "DTC home goods",
+    "title": "Breaking a discount habit",
+    "headline": "Rebuilt a discount-addicted brand around full-price demand",
+    "blurb": "Fernwood had trained its customers to wait for a sale. We rewrote the positioning, rebuilt the creative system and moved the media plan off promo.",
+    "metric": "+61%",
+    "metricLabel": "contribution margin, year one",
+    "secondary": [
+      {
+        "value": "-72%",
+        "label": "promo-driven revenue"
+      },
+      {
+        "value": "+18pts",
+        "label": "gross margin"
+      }
+    ],
+    "services": [
+      "Brand",
+      "Performance Media",
+      "Lifecycle"
+    ],
+    "year": "2025",
+    "duration": "14 months",
+    "hue": "#0005dd",
+    "hue2": "#4f57ff",
+    "challenge": "Eleven consecutive quarters of discounting had reset customer expectations. Full-price sell-through sat under a fifth of volume, and every attempt to hold price collapsed within a fortnight.",
+    "approach": "We started by killing the promo calendar for a single category as a controlled test, then rebuilt the brand story around materials and repairability rather than price. Creative moved from product-on-white to in-home documentary. Lifecycle stopped announcing sales and started teaching care and pairing.",
+    "outcome": "Full-price sell-through more than doubled inside three quarters. Contribution margin rose 61% on flat revenue, and the promo calendar shrank from eleven events a year to three."
+  },
+  {
+    "slug": "orbit-health",
+    "client": "Orbit Health",
+    "sector": "B2B healthcare SaaS",
+    "title": "Pipeline without the founders",
+    "headline": "Turned a founder-led sales motion into a repeatable pipeline engine",
+    "blurb": "Two founders were the only source of demand. We built a category narrative, a content engine and a paid programme that filled the calendar without them.",
+    "metric": "3.4x",
+    "metricLabel": "qualified pipeline in nine months",
+    "secondary": [
+      {
+        "value": "-41%",
+        "label": "cost per SQL"
+      },
+      {
+        "value": "6",
+        "label": "net-new segments"
+      }
+    ],
+    "services": [
+      "Positioning",
+      "Creative Studio",
+      "Data & Measurement"
+    ],
+    "year": "2025",
+    "duration": "9 months",
+    "hue": "#1d4dff",
+    "hue2": "#00b6ff",
+    "challenge": "Every qualified opportunity traced back to one of two founders speaking somewhere. Marketing produced volume but nothing that converted, and nobody agreed on what a lead was worth.",
+    "approach": "We wrote a category narrative the founders actually believed, turned their conference talks into a durable content engine, and rebuilt the measurement layer so sales and marketing were reading the same pipeline number.",
+    "outcome": "Qualified pipeline tripled while founder-sourced share fell from 88% to 31%. Cost per SQL dropped 41% even as volume grew."
+  },
+  {
+    "slug": "batchly",
+    "client": "Batchly",
+    "sector": "Fintech",
+    "title": "The numbers were the bug",
+    "headline": "Cut acquisition cost in half by fixing measurement first",
+    "blurb": "Nothing was broken except the numbers. Server-side tracking and a geo holdout revealed a third of spend was buying customers they already had.",
+    "metric": "-48%",
+    "metricLabel": "blended CAC in two quarters",
+    "secondary": [
+      {
+        "value": "4.1Cr",
+        "label": "annualised spend freed"
+      },
+      {
+        "value": "2.9x",
+        "label": "incremental ROAS"
+      }
+    ],
+    "services": [
+      "Data & Measurement",
+      "Performance Media"
+    ],
+    "year": "2024",
+    "duration": "6 months",
+    "hue": "#000a8f",
+    "hue2": "#0072ff",
+    "challenge": "Platform-reported ROAS looked healthy while blended CAC climbed every month. Nobody could reconcile the two, so budget kept flowing to the channel with the best self-reported numbers.",
+    "approach": "We rebuilt tracking server-side, rebased attribution in the warehouse, and ran a four-week geo holdout on the largest channel. The holdout showed roughly a third of that spend was reaching people who would have converted anyway.",
+    "outcome": "Blended CAC fell 48% in two quarters. Freed budget moved to prospecting and a lifecycle programme that had never been funded."
+  },
+  {
+    "slug": "tidepool",
+    "client": "Tidepool",
+    "sector": "Marketplace",
+    "title": "Growing the other side",
+    "headline": "Made supply-side growth the marketing team's problem",
+    "blurb": "Buyer demand was never the constraint. We built a seller acquisition programme with its own creative, funnel and payback model.",
+    "metric": "+2,900",
+    "metricLabel": "activated sellers in six months",
+    "secondary": [
+      {
+        "value": "-33%",
+        "label": "time to first listing"
+      },
+      {
+        "value": "4.6x",
+        "label": "seller LTV:CAC"
+      }
+    ],
+    "services": [
+      "Performance Media",
+      "Lifecycle",
+      "Web & Conversion"
+    ],
+    "year": "2024",
+    "duration": "8 months",
+    "hue": "#3d47ff",
+    "hue2": "#8a6bff",
+    "challenge": "Buyers arrived faster than inventory could support, so conversion fell and paid spend on the demand side became actively harmful.",
+    "approach": "We treated sellers as a separate acquisition problem with its own creative territory, onboarding funnel and payback model, then rebuilt the listing flow around the first fifteen minutes.",
+    "outcome": "Nearly three thousand activated sellers in six months, time-to-first-listing down a third, and buyer-side conversion recovered without extra demand spend."
+  },
+  {
+    "slug": "kestrel",
+    "client": "Kestrel",
+    "sector": "Consumer app",
+    "title": "Outrunning the algorithm",
+    "headline": "A creative testing cadence that outran the algorithm",
+    "blurb": "Forty concepts a month, read against installs and day-30 retention. Winners got scaled, losers got buried, nobody got precious.",
+    "metric": "5.1x",
+    "metricLabel": "return on ad spend at scale",
+    "secondary": [
+      {
+        "value": "480",
+        "label": "concepts tested"
+      },
+      {
+        "value": "+27%",
+        "label": "D30 retention"
+      }
+    ],
+    "services": [
+      "Creative Studio",
+      "Performance Media"
+    ],
+    "year": "2023",
+    "duration": "12 months",
+    "hue": "#0060ff",
+    "hue2": "#00d0f5",
+    "challenge": "Creative fatigue was arriving inside nine days. The in-house team could produce six concepts a month, which meant most of the budget ran on assets everyone already knew were tired.",
+    "approach": "We built a modular concept system — hooks, proofs and closes that recombine — so forty assets a month came from ten shoots. Every asset carried a hypothesis and was read against day-30 retention, not installs.",
+    "outcome": "ROAS held at 5.1x while spend tripled. Day-30 retention rose 27% because the winning hooks were selecting for better users, not just cheaper ones."
+  },
+  {
+    "slug": "homestead",
+    "client": "Homestead",
+    "sector": "Retail",
+    "title": "Eleven stores, one brand",
+    "headline": "Took eleven regional stores into one national brand",
+    "blurb": "A single identity, a local-first media plan and a lifecycle programme that knew which store you shopped at.",
+    "metric": "+34%",
+    "metricLabel": "same-store revenue",
+    "secondary": [
+      {
+        "value": "11-24",
+        "label": "stores in two years"
+      },
+      {
+        "value": "+52%",
+        "label": "loyalty enrolment"
+      }
+    ],
+    "services": [
+      "Brand",
+      "Web & Conversion",
+      "Lifecycle"
+    ],
+    "year": "2023",
+    "duration": "18 months",
+    "hue": "#141a7a",
+    "hue2": "#4a7bff",
+    "challenge": "Eleven stores operating as eleven brands, with local managers buying their own media and no shared customer record.",
+    "approach": "One identity flexible enough for local voice, a media plan built on store catchments rather than national reach, and a loyalty programme tied to the store you actually shop at.",
+    "outcome": "Same-store revenue up 34%, loyalty enrolment up 52%, and thirteen new openings that sold out their first weekend before launch day."
+  },
+  {
+    "slug": "verdant",
+    "client": "Verdant",
+    "sector": "Sustainable CPG",
+    "title": "Proof over promises",
+    "headline": "Replaced sustainability claims with evidence people could check",
+    "blurb": "A crowded shelf full of green promises. We made verifiability the brand's entire creative platform.",
+    "metric": "2.7x",
+    "metricLabel": "retail velocity in target doors",
+    "secondary": [
+      {
+        "value": "+19pts",
+        "label": "unaided awareness"
+      },
+      {
+        "value": "-24%",
+        "label": "cost per trial"
+      }
+    ],
+    "services": [
+      "Brand",
+      "Creative Studio",
+      "Performance Media"
+    ],
+    "year": "2022",
+    "duration": "10 months",
+    "hue": "#0092c4",
+    "hue2": "#0016cc",
+    "challenge": "Every competitor made the same environmental claims, so none of them registered. Trial was expensive and repeat was flat.",
+    "approach": "We built the platform around checkable proof — batch-level sourcing on pack, third-party audits published in full, and creative that invited scrutiny instead of asking for trust.",
+    "outcome": "Retail velocity nearly tripled in target doors, cost per trial fell 24%, and unaided awareness climbed 19 points in the core market."
+  },
+  {
+    "slug": "sable",
+    "client": "Sable",
+    "sector": "Luxury travel",
+    "title": "Fewer, better guests",
+    "headline": "Halved enquiry volume and doubled booked revenue",
+    "blurb": "The funnel was full of people who would never book. We deliberately made it narrower and much more expensive to enter.",
+    "metric": "2.1x",
+    "metricLabel": "booked revenue on half the leads",
+    "secondary": [
+      {
+        "value": "-54%",
+        "label": "enquiry volume"
+      },
+      {
+        "value": "+3.8x",
+        "label": "enquiry-to-book rate"
+      }
+    ],
+    "services": [
+      "Positioning",
+      "Performance Media",
+      "Web & Conversion"
+    ],
+    "year": "2022",
+    "duration": "7 months",
+    "hue": "#5a4bff",
+    "hue2": "#009cff",
+    "challenge": "A sales team drowning in enquiries with a 2% booking rate, and a media programme rewarded for producing more of them.",
+    "approach": "We put price in the creative, qualified hard on the landing page, and rebuilt bidding around booked revenue rather than form fills.",
+    "outcome": "Enquiries halved, booking rate rose almost fourfold, and booked revenue doubled with the same media budget."
+  }
+]

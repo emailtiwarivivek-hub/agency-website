@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "brand",
+    "number": "01",
+    "title": "Brand & Positioning",
+    "short": "The sharp, defensible thing only you can say.",
+    "summary": "We find the story that makes the rest of the spend work, then build the system that carries it across every surface you own.",
+    "bullets": ["Positioning and messaging architecture", "Naming, identity and motion systems", "Category and competitor mapping", "Brand books teams actually open"],
+    "deliverables": ["Positioning platform", "Visual identity system", "Messaging matrix", "Brand guidelines"]
+  },
+  {
+    "slug": "performance",
+    "number": "02",
+    "title": "Performance Media",
+    "short": "Attention that pays rent, measured against margin.",
+    "summary": "Paid search, paid social and retail media run against contribution margin instead of dashboard vanity. Budgets move weekly, not quarterly.",
+    "bullets": ["Full-funnel media across seven channels", "Creative testing on a two-week cadence", "Incrementality tests and geo holdouts", "Blended CAC and payback modelling"],
+    "deliverables": ["Channel strategy", "Media plan and forecast", "Weekly optimisation", "Incrementality read-outs"]
+  },
+  {
+    "slug": "creative",
+    "number": "03",
+    "title": "Creative Studio",
+    "short": "Forty concepts a month, every one a hypothesis.",
+    "summary": "A studio wired directly into the media plan, so the best-performing hook on Tuesday becomes the landing page on Friday.",
+    "bullets": ["Static, motion and short-form video", "Concept systems built for volume", "Landing pages and conversion design", "Creator and partnership production"],
+    "deliverables": ["Creative territories", "Monthly asset batches", "Motion and edit suite", "Performance creative reviews"]
+  },
+  {
+    "slug": "lifecycle",
+    "number": "04",
+    "title": "Lifecycle & CRM",
+    "short": "Most growth hides in the list you already own.",
+    "summary": "Flows, segments and offers that turn one purchase into four, built on a data model you can actually query.",
+    "bullets": ["Email and SMS programme design", "Onboarding, winback and referral flows", "Segmentation and propensity scoring", "Deliverability and list health audits"],
+    "deliverables": ["Lifecycle map", "Flow build and QA", "Offer calendar", "Retention reporting"]
+  },
+  {
+    "slug": "measurement",
+    "number": "05",
+    "title": "Data & Measurement",
+    "short": "One number the whole company agrees on.",
+    "summary": "Clean tracking, honest attribution and the unglamorous plumbing that makes every other discipline defensible.",
+    "bullets": ["Server-side tracking and CAPI", "Warehouse-native attribution", "Dashboards for operators, not boards", "Experiment design and read-outs"],
+    "deliverables": ["Tracking audit", "Measurement plan", "Warehouse models", "Experiment library"]
+  },
+  {
+    "slug": "web",
+    "number": "06",
+    "title": "Web & Conversion",
+    "short": "Fast sites with a testing programme underneath.",
+    "summary": "Marketing sites built on modern stacks where marketers ship copy without filing a ticket, and CRO runs from day one.",
+    "bullets": ["Marketing site design and build", "Headless CMS for non-developers", "Core Web Vitals and technical SEO", "Continuous CRO programme"],
+    "deliverables": ["Site architecture", "Design system", "Build and launch", "Ongoing test roadmap"]
+  }
+]

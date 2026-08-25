@@ -1,0 +1,10 @@
+[
+  { "q": "What size company do you usually work with?", "a": "Most clients sit between $5M and $150M in revenue with a marketing team of two to twenty. Below that a retainer rarely pays for itself, and we'll say so on the first call." },
+  { "q": "Do you take a percentage of ad spend?", "a": "No. Fees are flat and published. The moment our income scales with your budget we stop being able to tell you to spend less." },
+  { "q": "How fast does anything actually go live?", "a": "First campaigns ship inside thirty days of kickoff. The diagnostic runs in parallel with build, so you aren't paying for a month of slide decks." },
+  { "q": "Will we own the accounts and the creative?", "a": "Always. Ad accounts, pixels, source files and documentation sit in your workspace from day one. If you leave, nothing walks out with us." },
+  { "q": "Can you work alongside our in-house team?", "a": "That's the preferred version. Roughly half our engagements are designed to hand the system over within eighteen months, and we help you hire for it." },
+  { "q": "What if it isn't working?", "a": "Retainers run on 60-day notice after an initial 90-day term. We'd rather end an engagement honestly than defend a plan that isn't earning." },
+  { "q": "Do you work outside India?", "a": "Yes. Roughly 40% of current accounts are US, UK or EU based. We overlap at least four hours with every client's working day." },
+  { "q": "Who actually does the work?", "a": "The people in the pitch. There are never more than four on an account and there are no account managers between you and them." }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "slug": "sprint",
+    "name": "Sprint",
+    "price": "$9k",
+    "cadence": "one-off",
+    "tagline": "Six weeks. One honest answer.",
+    "description": "A diagnostic for teams who suspect the problem isn't the ad account.",
+    "features": ["Growth and measurement audit", "Customer and win/loss interviews", "Positioning recommendation", "90-day plan with forecast", "Two working sessions with your team"],
+    "notIncluded": ["Ongoing media management", "Creative production", "Dedicated pod"],
+    "cta": "Book a sprint",
+    "featured": false,
+    "timeline": ["Week 1–2 — data, tracking and interviews", "Week 3–4 — positioning and channel modelling", "Week 5 — plan and forecast build", "Week 6 — read-out and handover"]
+  },
+  {
+    "slug": "retainer",
+    "name": "Retainer",
+    "price": "$18k",
+    "cadence": "per month",
+    "tagline": "An embedded pod against one number.",
+    "description": "Strategy, creative and media running as one team on a fortnightly cycle.",
+    "features": ["Dedicated strategist, buyer and designer", "Full-funnel media across your channels", "20–40 creative concepts per month", "Warehouse-native reporting", "Fortnightly experiment read-outs", "Direct Slack access, no ticketing"],
+    "notIncluded": ["Media budget (paid direct to platforms)", "Production travel"],
+    "cta": "Talk to us",
+    "featured": true,
+    "timeline": ["Days 1–14 — diagnostic runs alongside build", "Day 30 — first campaigns live", "Every 2 weeks — experiment read-out", "Quarterly — plan and forecast reset"]
+  },
+  {
+    "slug": "partner",
+    "name": "Partner",
+    "price": "Custom",
+    "cadence": "annual",
+    "tagline": "Marketing as a system, not a channel.",
+    "description": "For companies past $50M where several brands or markets are in play.",
+    "features": ["Everything in Retainer", "Multi-market and multi-brand support", "In-house team training and hiring support", "Quarterly board-ready planning", "Named partner accountability", "Priority studio capacity"],
+    "notIncluded": ["Nothing — scope is written to fit"],
+    "cta": "Start a conversation",
+    "featured": false,
+    "timeline": ["Month 1 — audit across brands and markets", "Month 2 — operating model and org design", "Month 3 — build and staffing", "Ongoing — quarterly planning cycle"]
+  }
+]
